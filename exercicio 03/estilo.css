@@ -1,0 +1,22 @@
+.alternada{
+
+    list-style:lower-greek ;
+    font-size: 40px;
+    color: crimson;
+    font-family: 'jumpman';
+    width: fit-content;
+}
+.alternada li:nth-child(even){
+    
+    background-color: blanchedalmond;
+}
+
+.alternada li:nth-child(odd){
+    
+    background-color: rgb(148, 221, 250);
+}
+
+.alternada li:hover{
+    
+   font-weight: bold
+}
